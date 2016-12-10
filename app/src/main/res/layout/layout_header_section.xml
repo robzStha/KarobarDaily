@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/colorMainBgDark"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="@dimen/space_20"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDarker"/>
+    <View
+        android:layout_width="@dimen/space_20"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/tv_header_title"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:padding="@dimen/space_10"
+        android:textColor="@android:color/black"
+        android:text="@string/header_cartoon"
+        android:ellipsize="end"/>
+
+</LinearLayout>

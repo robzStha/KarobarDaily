@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/space_20"
+    android:id="@+id/ll_section"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/txt_22"
+        android:padding="@dimen/space_10"
+        android:textColor="@color/colorPrimary"
+        android:text="This is a title for two lines and i need this one to b good"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_news_image"
+        android:src="@drawable/loading"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/tv_issue_date"
+        android:textColor="@color/gray_888888"
+        android:text="07 Mangshir, 2073 9:45 Rati"
+        android:padding="5dp"
+        android:textSize="@dimen/txt_10"/>
+
+    <TextView
+        android:id="@+id/tv_news_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:maxLines="5"
+        android:lines="5"
+        android:text="hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf hello this is lorem epsum dolor sitm appns this is fear dome and boredom tudsaf "
+        android:ellipsize="end"/>
+
+</LinearLayout>
